@@ -73,7 +73,42 @@ button.sign-up {
     border-radius: 10px;
 }
 
-.image-with-text > img {
-    height: 250px;
-    width: auto;
+/* pictures-block */
+
+h3 {
+    font-size: 35px;
+    text-align: center;
 }
+
+.pictures-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    gap: 30px;
+}
+.pictures-group {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: no-wrap;
+    gap: 20px;
+}
+
+figure {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 150px;
+    gap: 5px;
+
+}
+figure > img {
+    max-width: 150px;
+    height: auto;
+}
+
+figcaption {
+}
+
