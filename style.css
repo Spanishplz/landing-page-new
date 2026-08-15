@@ -133,3 +133,28 @@ figure > img {
     text-align: right;
     font-weight: bold;
 }
+
+/* modal block */
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-block {
+    border: 5px solid orange;
+    display:flex;
+    justify-content: space-bewteen;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 200px;
+}
+.modal-block > * {
+    flex: 1 1 auto;
+}
+.modal-block h3 {
+    font-size: 25px;
+}
+
+.modal-text {
+    text-align: left;
+}
