@@ -157,12 +157,16 @@ div.pictures-group figure {
     flex-direction: column;
     justify-content: center;
     max-width: 150px;
-    gap: 5px;
+    gap: 10px;
+    text-align: center;
 
 }
 figure > img {
-    max-width: 150px;
+    width: 150px;
+    height: 150px;
     height: auto;
+    border: 2px solid orange;
+    border-radius: 20px;
 }
 
 /* quote block */
