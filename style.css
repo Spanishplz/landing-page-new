@@ -11,12 +11,16 @@ body > * {
     font-family: Roboto;
 }
 body > div {
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
 
 /* header */
-.header-block {
+.container1 {
     background-color: lightgrey;
+    padding-bottom: 80px;
+}
+.header-block {
+
 }
 .logo img {
     height: 50px;
@@ -31,6 +35,7 @@ body > div {
     margin-left: 100px;
     margin-right: 100px;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -62,7 +67,7 @@ ul {
 
 .article h2{
     font-size: 40px;
-    
+
 }
 .article p, h2 {
     max-width: 300px;
@@ -93,10 +98,10 @@ h3 {
 .pictures-block {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding: 30px;
     gap: 30px;
-    
+    padding-top: 40px;
+    padding-bottom: 100px;
+
 }
 .pictures-group {
     display: flex;
@@ -121,9 +126,12 @@ figure > img {
 }
 
 /* quote block */
+.container3 {
+    background-color: yellow;
+}
 
 .quote-block {
-    padding: 100px;
+    padding: 80px;
     font-size: 20px;
 }
 .quote-block.blockquote {
@@ -140,17 +148,18 @@ figure > img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .modal-block {
     border: 5px solid orange;
-    display:flex;
-    justify-content: space-bewteen;
+    display: flex;
+    /* justify-content: space-between; */
     align-items: center;
-    gap: 100px;
-    padding: 50px 200px;
+    flex-wrap: wrap;
 }
 .modal-block > * {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
 .modal-block h3 {
     font-size: 25px;
