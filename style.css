@@ -78,8 +78,9 @@ button.sign-up {
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
-    padding: 10px 20px;
+    padding: 12px 40px;
     border-radius: 10px;
+    font-weight: 700;
 }
 
 /* pictures-block */
@@ -102,7 +103,7 @@ h3 {
     justify-content: center;
     /* align-items: center; */
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 70px;
 }
 
 div.pictures-group figure {
@@ -153,8 +154,18 @@ figure > img {
 }
 .modal-block h3 {
     font-size: 25px;
+    text-align: left;
 }
 
 .modal-text {
-    text-align: left;
+
+}
+
+/* footer */
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
