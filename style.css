@@ -16,9 +16,14 @@ body > div {
 
 /* header */
 .container1 {
-    background-color: lightgrey;
     padding-bottom: 60px;
 }
+
+.container1,
+.container5 {
+    background-color: #c2b280;
+}
+
 .header-block {
     display: flex;
     flex-direction: column;
@@ -29,14 +34,21 @@ body > div {
     height: auto;
 
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    color: green;;
+}
 
 .header-block,
 .pictures-block,
 .quote-block,
 .modal-block,
 .footer {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .header {
@@ -50,7 +62,13 @@ body > div {
 
 ul {
     display: flex;
-    gap: 50px
+    gap: 50px;
+    
+}
+
+ul a {
+
+    text-decoration: none;
 }
 
 /* article-block */
@@ -71,17 +89,19 @@ ul {
    
 
 }
-.article.text {
-    flex: 0 0 auto;
-}
-.article.image {
-    flex: 0 0 auto;
+
+.article h2 {
+    font-size: 48px;
+    color: green;
+    font-weight: 900;
 }
 
-.article h2{
-    font-size: 40px;
+.article p,
+ul a {
+    color: purple;
 
 }
+
 .article p, h2 {
     max-width: 300px;
 }
@@ -116,6 +136,13 @@ h3 {
     padding-bottom: 100px;
 
 }
+
+.pictures-block h3 {
+    font-size: 36px;
+    color: #c2b280;
+    font-weight: 900;
+}
+
 .pictures-group {
     display: flex;
     justify-content: center;
@@ -140,13 +167,26 @@ figure > img {
 
 /* quote block */
 .container3 {
-    background-color: yellow;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
 }
 
 .quote-block {
-    padding: 80px;
-    font-size: 20px;
+    margin: 0;
+    padding: 50px;
+    font-size: 36px;
+    max-width: 800px;
+    font-weight: 300;
 }
+
+.famous {
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .quote-block.blockquote {
     text-align:justify;
     font-style: italic;
@@ -165,7 +205,6 @@ figure > img {
     padding-bottom: 80px;
 }
 .modal-block {
-    border: 5px solid orange;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -174,6 +213,16 @@ figure > img {
     padding: 40px 50px;
     gap: 10px;
 }
+
+.modal-block,
+.modal-block button {
+    background-color: orange;
+}
+
+.modal-block button {
+    border: 2px solid white;
+}
+
 .modal-block > * {
     flex: 0 1 auto;
 }
