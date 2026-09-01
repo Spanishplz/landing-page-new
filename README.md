@@ -1,5 +1,5 @@
-# Project done under The Odin Project guidance curriculum guidance
-
+# Landing-page
+Project done under the The Odin Project's curriculum guidance.
 - Practice HTML and CSS basics
 
 ## Credit for the images:
